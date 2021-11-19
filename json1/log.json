@@ -1,0 +1,146 @@
+[
+  {
+    "labels": {
+      "id": "769df346-59f4-46a4-9a3d-9e5c8d31e348",
+      "version": "0.26.0"
+    },
+    "decision_id": "03e387d8-a05e-474c-bdd7-e9c7f30e6a9c",
+    "bundles": {
+      "/var/www/policy": {}
+    },
+    "path": "fujitsu/sip/txpolicy/allowed_columns",
+    "input": {
+      "action": "read",
+      "owner": [
+        "userA"
+      ],
+      "resource": {
+        "code": "3012"
+      },
+      "user": {
+        "category": [
+          "catA",
+          "catB"
+        ],
+        "name": "userA"
+      }
+    },
+    "result": {
+      "policy": {
+        "userA": {
+          "permitted": [
+            "aA1",
+            "aA2"
+          ],
+          "target_notation": ""
+        }
+      },
+      "version": "1.0"
+    },
+    "requested_by": "[::1]:60882",
+    "timestamp": "2021-11-05T06:05:24.964847063Z",
+    "metrics": {
+      "counter_server_query_cache_hit": 1,
+      "timer_rego_external_resolve_ns": 589,
+      "timer_rego_input_parse_ns": 63455,
+      "timer_rego_query_eval_ns": 1064080,
+      "timer_server_handler_ns": 1166073
+    }
+  },
+  {
+    "labels": {
+      "id": "769df346-59f4-46a4-9a3d-9e5c8d31e348",
+      "version": "0.26.0"
+    },
+    "decision_id": "d321c765-0886-4c72-80d2-0c9d7274ebfc",
+    "bundles": {
+      "/var/www/policy": {}
+    },
+    "path": "fujitsu/sip/txpolicy/allowed_columns",
+    "input": {
+      "action": "read",
+      "owner": [
+        "userA"
+      ],
+      "resource": {
+        "code": "3012"
+      },
+      "user": {
+        "category": [
+          "catA",
+          "catB"
+        ],
+        "name": "userA"
+      }
+    },
+    "result": {
+      "policy": {
+        "userA": {
+          "permitted": [
+            "aA1",
+            "aA2"
+          ],
+          "target_notation": ""
+        }
+      },
+      "version": "1.0"
+    },
+    "requested_by": "[::1]:60884",
+    "timestamp": "2021-11-05T06:05:25.312787269Z",
+    "metrics": {
+      "counter_server_query_cache_hit": 1,
+      "timer_rego_external_resolve_ns": 649,
+      "timer_rego_input_parse_ns": 61133,
+      "timer_rego_query_eval_ns": 1055411,
+      "timer_server_handler_ns": 1175715
+    }
+  },
+  {
+    "labels": {
+      "id": "769df346-59f4-46a4-9a3d-9e5c8d31e348",
+      "version": "0.26.0"
+    },
+    "decision_id": "83f5c1b0-5d4f-4a1d-86d0-e99336fe5d38",
+    "bundles": {
+      "/var/www/policy": {}
+    },
+    "path": "fujitsu/sip/txpolicy/allowed_columns",
+    "input": {
+      "action": "read",
+      "owner": [
+        "userA"
+      ],
+      "resource": {
+        "code": "3012"
+      },
+      "user": {
+        "category": [
+          "catA",
+          "catB"
+        ],
+        "name": "userA"
+      }
+    },
+    "result": {
+      "policy": {
+        "userA": {
+          "permitted": [
+            "aA1",
+            "aA2"
+          ],
+          "target_notation": ""
+        }
+      },
+      "version": "1.0"
+    },
+    "requested_by": "[::1]:60886",
+    "timestamp": "2021-11-05T06:05:25.653301306Z",
+    "metrics": {
+      "counter_server_query_cache_hit": 1,
+      "timer_rego_external_resolve_ns": 544,
+      "timer_rego_input_parse_ns": 50767,
+      "timer_rego_query_eval_ns": 960138,
+      "timer_server_handler_ns": 1048705
+    }
+  }
+]
